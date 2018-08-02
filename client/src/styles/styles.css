@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1470342495351-a5f90c5011cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4810751019fb632656ffe28acd813135&auto=format&fit=crop&w=1950&q=80);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+h1, h2 {
+color: white;
+padding: 60px;
+margin: 0 auto;
+text-align: left;
+text-transform: uppercase;
+font-family: 'Oswald';
+}
+p, ul, li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  color: black;
+}
+
+ul.header {
+  top: 0;
+  bottom: 10;
+  background-color: white;
+  height: 10vh;
+  width: 110vw;
+  position: fixed;
+  display: flex;
+  align-items: stretch;
+  min-width: 50px;
+}
+
+ul.header li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.content {
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
