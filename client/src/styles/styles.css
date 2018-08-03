@@ -23,20 +23,20 @@ font-family: 'Oswald';
 
 
 
-/*Style for menu links*/
+/*Style for nav links*/
  li a {
     display: flex;
     min-width:140px;
     height: 40px;
     text-align: center;
     line-height: 50px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     color: black;
     background: white;
     text-decoration: none;
 }
 
-/*Style for dropdown links*/
+/*Style for dropdown links - it's not showing at the moment, but can be an option if we want it*/
 li:hover ul a {
     height: 40px;
     line-height: 40px;
@@ -59,7 +59,7 @@ ul li {
   color: black;
 
 }
-
+/* nav bar style and background color */
 ul.navbar  {
   top: 0;
   bottom: 0;
@@ -74,7 +74,7 @@ ul.navbar  {
   z-index: 2;
 
 }
-
+/* navbar link/font styling */
 ul.navbar li a {
     text-decoration: none;
     min-width: 30px;
@@ -91,14 +91,8 @@ ul.navbar li a {
 
 }
 
-li ul li a {
-    width: auto;
-    min-width: 100px;
-    padding: 0 20px;
-}
 
-
-/*Style 'show menu' label button and hide it by default*/
+/*Style 'show menu' label button and hide it by default - would like to move this up if we decide to keep it */
 .show-menu {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
@@ -144,11 +138,11 @@ input[type=checkbox]{
     }
 }
 
-
+/*content box styling*/
 .content {
   display: flex;
-  background-color: rgba(24, 24, 22, 0.8);
-  padding: 20vh;
+  background-color: rgba(24, 24, 22, 0.7);
+  padding: 10vh;
   color: white;
 }
 
@@ -156,8 +150,4 @@ input[type=checkbox]{
   font-size: 40px;
   padding: 10px;
   margin: 30px;
-}
-
-.content li {
-  margin-bottom: 10px;
 }
