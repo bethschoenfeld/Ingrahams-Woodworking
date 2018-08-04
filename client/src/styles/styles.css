@@ -74,6 +74,7 @@ ul.navbar {
   justify-content: space-around;
   text-align: center;
   min-width: 50px;
+  padding: 0;
   z-index: 2;
 }
 

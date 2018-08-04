@@ -4,7 +4,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Photos from './components/photos/Photos'
 import Footer from "./components/footer/Footer";
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 export default class App extends Component {
   render() {
@@ -31,7 +31,7 @@ export default class App extends Component {
         </ul>
 
         <div className="content">
-          <Route exact="exact" path='/' component={Home}/>
+          <Route exact={true} path='/' component={Home}/>
           <Route path='/about' component={About}/>
           <Route path='/photos' component={Photos}/>
           <Route path='/contact' component={Footer}/>
