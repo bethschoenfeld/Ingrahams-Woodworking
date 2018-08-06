@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
-
 body {
   background-image: url(https://images.unsplash.com/photo-1470342495351-a5f90c5011cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4810751019fb632656ffe28acd813135&auto=format&fit=crop&w=1950&q=80);
   background-attachment: scroll;
@@ -8,7 +7,6 @@ body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
   position: relative;
   width: 100%;
 }
@@ -149,4 +147,38 @@ input[type=checkbox] {
   font-size: 40px;
   padding: 10px;
   margin: 30px;
+}
+
+#photoContainer {
+  padding: 4em;
+}
+
+#one {
+  padding-block-start: 2em;
+  margin-left: 2em;
+}
+
+#two {
+  margin-left: 2em;
+  padding-block-start: 2em;
+}
+
+#three {
+  margin-left: 2em;
+  padding-block-start: 2em;
+}
+
+#four {
+  margin-left: 2em;
+  padding-block-start: 2em;
+}
+
+#homeImg1 {
+  padding: 20px;
+  margin-left: 10em;
+}
+
+#homeImg2 {
+  padding: 20px;
+  margin-left: 0em;
 }
