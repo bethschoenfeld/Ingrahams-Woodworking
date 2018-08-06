@@ -148,3 +148,37 @@ input[type=checkbox] {
   padding: 10px;
   margin: 30px;
 }
+
+#photoContainer {
+  padding: 4em;
+}
+
+#one {
+  padding-block-start: 2em;
+  margin-left: 2em;
+}
+
+#two {
+  margin-left: 2em;
+  padding-block-start: 2em;
+}
+
+#three {
+  margin-left: 2em;
+  padding-block-start: 2em;
+}
+
+#four {
+  margin-left: 2em;
+  padding-block-start: 2em;
+}
+
+#homeImg1 {
+  padding: 20px;
+  margin-left: 10em;
+}
+
+#homeImg2 {
+  padding: 20px;
+  margin-left: 0em;
+}

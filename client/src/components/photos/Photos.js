@@ -8,9 +8,10 @@ export default class Photos extends Component {
     return (
       <div>
         <h2>Photos</h2>
-        <GridExampleColumnCount />
+        <div id='photoContainer'>
+          <GridExampleColumnCount />
+        </div>
       </div>
-
 
 
     )
