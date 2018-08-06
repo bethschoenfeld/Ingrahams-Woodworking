@@ -3,7 +3,7 @@
 
 body {
   background-image: url(https://images.unsplash.com/photo-1470342495351-a5f90c5011cd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4810751019fb632656ffe28acd813135&auto=format&fit=crop&w=1950&q=80);
-  background-attachment:scroll;
+  background-attachment: scroll;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -12,133 +12,132 @@ body {
   position: relative;
   width: 100%;
 }
-h1, h2{
-color: white;
-padding: 90px;
-margin: 0 auto;
-text-align: left;
-text-transform: uppercase;
-font-family: 'Oswald';
+
+h1,
+h2 {
+  color: white;
+  padding: 90px;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Oswald';
 }
 
-
-
 /*Style for nav links*/
- li a {
-    display: flex;
-    min-width:140px;
-    height: 40px;
-    text-align: center;
-    line-height: 50px;
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    color: black;
-    background: white;
-    text-decoration: none;
+
+li a {
+  display: flex;
+  min-width: 140px;
+  height: 40px;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: black;
+  background: white;
+  text-decoration: none;
 }
 
 /*Style for dropdown links - it's not showing at the moment, but can be an option if we want it*/
+
 li:hover ul a {
-    height: 40px;
-    line-height: 40px;
-    color: black;
-    font-weight: bold;
-    display: none;
+  height: 40px;
+  line-height: 40px;
+  color: black;
+  font-weight: bold;
+  display: none;
 }
 
-
-p, ul, li {
+p,
+ul,
+li {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
 
-
 ul li {
   display: inline;
   color: black;
-
 }
+
 /* nav bar style and background color */
-ul.navbar  {
+
+ul.navbar {
   top: 0;
   bottom: 0;
   background-color: white;
   height: 4vh;
   width: 100vw;
   position: fixed;
-  display:inline-flex;
+  display: inline-flex;
   justify-content: space-around;
   text-align: center;
   min-width: 50px;
+  padding: 0;
   z-index: 2;
-
 }
+
 /* navbar link/font styling */
+
 ul.navbar li a {
-    text-decoration: none;
-    min-width: 30px;
-    justify-content: space-around;
-    font-family: 'Oswald', sans-serif;
-    font-size: 12px;
-    letter-spacing: 8px;
-    color: black;
-    font-weight: 500;
-    text-transform: uppercase;
-    opacity: .9;
-
-
-
+  text-decoration: none;
+  min-width: 30px;
+  justify-content: space-around;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  letter-spacing: 8px;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: .9;
 }
-
 
 /*Style 'show menu' label button and hide it by default - would like to move this up if we decide to keep it */
+
 .show-menu {
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    color: white;
-    position:inherit;
-    display: none;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: white;
+  position: inherit;
+  display: none;
 }
 
 /*Hide checkbox*/
-input[type=checkbox]{
-    display: none;
+
+input[type=checkbox] {
+  display: none;
 }
 
-
 /*Responsive Styles*/
-@media screen and (max-width : 460px){
-    /*Make dropdown links appear inline*/
-    ul {
-        position:fixed;
-        display: none;
-    }
-    /*Create vertical spacing*/
-    li {
-        margin-bottom: 1px;
 
-    }
-
-    /*Make all menu links full width*/
-    ul li, li a {
-        width: 100%;
-    }
-
-    /*Show menu when invisible checkbox is checked*/
-    input[type=checkbox]:checked ~ .navbar{
-        display: none;
-    }
-
-    /*Display 'show menu' link*/
-    .show-menu {
-      display:block;
-
-
-    }
+@media screen and (max-width: 460px) {
+  /*Make dropdown links appear inline*/
+  ul {
+    position: fixed;
+    display: none;
+  }
+  /*Create vertical spacing*/
+  li {
+    margin-bottom: 1px;
+  }
+  /*Make all menu links full width*/
+  ul li,
+  li a {
+    width: 100%;
+  }
+  /*Show menu when invisible checkbox is checked*/
+  input[type=checkbox]:checked~.navbar {
+    display: none;
+  }
+  /*Display 'show menu' link*/
+  .show-menu {
+    display: block;
+  }
 }
 
 /*content box styling*/
+
 .content {
   display: flex;
   background-color: rgba(24, 24, 22, 0.7);
